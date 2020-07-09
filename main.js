@@ -47,8 +47,12 @@ if (window.location.pathname == '/game/merchant') {
 
   if (MIMObj.settings.hideDefaultSellButton) {
     let btn = $('input[name = "commit"]');
+    let numInput = $('input[name = "amount"]');
     btn.each(function () {
       btn.hide();
+    });
+    numInput.each(function () {
+      numinput.hide();
     });
   }
 
