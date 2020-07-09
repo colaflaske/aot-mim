@@ -52,7 +52,7 @@ if (window.location.pathname == '/game/merchant') {
       btn.hide();
     });
     numInput.each(function () {
-      numinput.hide();
+      numInput.hide();
     });
   }
 
